@@ -8,74 +8,105 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a>
-          <img src="" alt="logo" />
+    <header class="page-header">
+      <nav class="nav-header">
+        <a class="logo-link nav-header__logo">
+          <img src="" alt="logo-link__image" />
         </a>
-        <button type="button">Menu</button>
-        <ul>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Search</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Safe dating</a></li>
-          <li><a href="#">Dating tips</a></li>
-          <li><a href="#">Help</a></li>
+        <button class="nav-header__toggle" type="button">
+          Menu<span class="nav-header__icon"></span>
+        </button>
+        <ul class="nav-header__list">
+          <li class="nav-header__item">
+            <a class="nav-header__link" href="#">Dashboard</a>
+          </li>
+          <li class="nav-header__item">
+            <a class="nav-header__link" href="#">Search</a>
+          </li>
+          <li class="nav-header__item">
+            <a class="nav-header__link" href="#">Shop</a>
+          </li>
+          <li class="nav-header__item">
+            <a class="nav-header__link" href="#">Blog</a>
+          </li>
+          <li class="nav-header__item">
+            <a class="nav-header__link" href="#">Safe dating</a>
+          </li>
+          <li class="nav-header__item">
+            <a class="nav-header__link" href="#">Dating tips</a>
+          </li>
+          <li class="nav-header__item">
+            <a class="nav-header__link" href="#">Help</a>
+          </li>
         </ul>
       </nav>
 
-      <h2>Find someone to click with</h2>
-      <a type="button">Get Started</a>
-      <ul>
-        <li><a href="#">Share</a></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Twitter</a></li>
+      <h2 class="title page-header__title">Find someone to click with</h2>
+      <a type="circle circle--button page-header__circle">Get Started</a>
+
+      <ul class="card-list">
+        <li class="card-list__item">
+          <span class="card-list__icon"></span>One World
+        </li>
+        <li class="card-list__item">
+          <span class="card-list__icon"></span>Two Hearts
+        </li>
+        <li class="card-list__item">
+          <span class="card-list__icon"></span>One Site
+        </li>
+      </ul>
+
+      <ul class="social-list">
+        <li>
+          <a href="#"><span class="viusually-hidden">Share</span></a>
+        </li>
+        <li>
+          <a href="#"><span class="viusually-hidden">Facebook</span></a>
+        </li>
+        <li>
+          <a href="#"><span class="viusually-hidden">Instagram</span></a>
+        </li>
+        <li>
+          <a href="#"><span class="viusually-hidden">Twitter</span></a>
+        </li>
       </ul>
     </header>
 
-    <main>
-      <h1>One World Datingx</h1>
+    <main class="page-main">
+      <h1 class="visually-hidden">One World Datingx</h1>
 
-      <section>
-        <ul>
-          <li>One World</li>
-          <li>Two Hearts</li>
-          <li>One Site</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Welcome</h2>
-        <blockquote>
-          <p>
+      <section class="welcome">
+        <h2 class="title welcome__title">Welcome</h2>
+        <blockquote class="quote">
+          <p class="quote__text">
             "Love is a promise, love is a souvenir, once given never forgotten,
             never let it disappear"
           </p>
-          <cite>- John Lennon</cite>
+          <cite class="quote__author">- John Lennon</cite>
         </blockquote>
-        <form action="#">
-          <p>It's free to join</p>
+        <form class="welcome__form form-main" action="#">
+          <p class="title">It's free to join</p>
           <button type="button">Sign up with facebook</button>
           <p>or</p>
-          <label for="email">Email</label>
+          <label class="visually-hidden" for="email">Email</label>
           <input id="email" type="email" name="email" placeholder="Email" />
-          <label for="username">Username</label>
+          <label class="visually-hidden" for="username">Username</label>
           <input
             id="username"
             type="text"
             name="username"
             placeholder="Username"
           />
-          <label for="password">Password</label>
+          <label class="visually-hidden" for="password">Password</label>
           <input
             id="password"
             type="password"
             name="password"
             placeholder="Password"
           />
-          <label for="passwordConfirm">Confirm Password</label>
+          <label class="visually-hidden" for="passwordConfirm"
+            >Confirm Password</label
+          >
           <input
             id="passwordConfirm"
             type="password"
@@ -86,38 +117,57 @@
         </form>
       </section>
 
-      <section>
-        <h2>Join</h2>
-        <p>Join now</p>
-        <p>It's free!</p>
-        <button>Get started</button>
+      <section class="join">
+        <h2 class="visually-hidden">Join</h2>
+        <p class="title join__title">Join now</p>
+        <p class="join__slogan">It's free!</p>
+        <a class="join__link">Get started</a>
+
+        <ul class="circle-list">
+          <li class="circle"><p>Send flowers!</p></li>
+          <li class="circle"><p>flower</p></li>
+          <li class="circle"><p>heart</p></li>
+          <li class="circle"><p>16 genders</p></li>
+          <li class="circle"><p>27 languages</p></li>
+          <li class="circle"><p>message</p></li>
+          <li class="circle"><p>Chat translation</p></li>
+          <li class="circle"><p>present</p></li>
+        </ul>
       </section>
     </main>
 
-    <footer>
-      <form action="#">
-        <p>Sign up for our newsletter</p>
-        <input type="email" placeholder="Email Address" />
-        <button type="submit">Subscribe</button>
+    <footer class="page-footer">
+      <form class="form-footer" action="#">
+        <p class="form-footer__text">Sign up for our newsletter</p>
+        <label class="visually-hidden" for="emailAddress">Email Address</label>
+        <input
+          class="form-footer__input"
+          id="emailAddress"
+          type="email"
+          placeholder="Email Address"
+        />
+        <button class="form-footer__button" type="submit">Subscribe</button>
       </form>
 
-      <nav>
-        <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Faqs</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Oneline safety</a></li>
-          <li><a href="">Privacy policy</a></li>
-          <li><a href="">Terms of use</a></li>
+      <nav class="nav-footer">
+        <ul class="nav-footer__list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Faqs</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Oneline safety</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Terms of use</a></li>
         </ul>
       </nav>
 
-      <p><img src="" alt="flags" /></p>
+      <p class="page-footer__flags"><img src="" alt="flags" /></p>
 
-      <p>
-        c2017 All World Daiting Enterprice Company LLC. All rights reserved. We
-        pledge never to share your Email Address
+      <p class="page-footer__divider"></p>
+
+      <p class="page-footer__copyright">
+        &copy 2017 All World Daiting Enterprice Company LLC. All rights
+        reserved. We pledge never to share your Email Address
       </p>
     </footer>
   </body>
