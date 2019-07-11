@@ -1,0 +1,35 @@
+.social-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50px;
+  height: 195px;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  border-radius: 0 3px 3px 0;
+  background-color: #45124c;
+}
+
+.social-list__link {
+  display: block;
+  height: 45px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &--share {
+    background-image: url(../img/social-list-share.png);
+  }
+
+  &--facebook {
+    background-image: url(../img/social-list-facebook.png);
+  }
+
+  &--instagram {
+    background-image: url(../img/social-list-instagram.png);
+  }
+
+  &--twitter {
+    background-image: url(../img/social-list-twitter.png);
+  }
+}
