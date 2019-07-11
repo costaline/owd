@@ -1,0 +1,55 @@
+.dating {
+  min-height: 1210px;
+  background-image: url(../img/dating-bg.png);
+  background-position: center 494px;
+  background-repeat: no-repeat;
+}
+
+.dating__slogan {
+  margin-bottom: 52px;
+  padding-left: 60px;
+
+  font-size: 52px;
+  color: #2f1946;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.dating__logo {
+  display: inline-block;
+  width: 57px;
+  height: 59px;
+  background-image: url(../img/dating-logo.png);
+  background-size: 57px 59px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.dating__quote {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 55px;
+}
+
+.dating__text {
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  color: #2f1946;
+}
+
+.dating__author {
+  display: block;
+
+  font-size: 30px;
+  text-align: right;
+  font-style: normal;
+  line-height: 36px;
+  color: #fe4a5d;
+}
+
+.dating__form {
+  width: 466px;
+  height: 552px;
+  margin: 0 auto;
+}

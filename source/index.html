@@ -73,57 +73,63 @@
     <main class="page-main">
       <h1 class="visually-hidden">One World Datingx</h1>
 
-      <ul class="card-list">
-        <li class="card-list__item">
-          <span class="card-list__icon"></span>One World
-        </li>
-        <li class="card-list__item">
-          <span class="card-list__icon"></span>Two Hearts
-        </li>
-        <li class="card-list__item">
-          <span class="card-list__icon"></span>One Site
-        </li>
-      </ul>
+      
 
-      <section class="welcome">
-        <h2 class="welcome__title">Welcome</h2>
-        <blockquote class="quote">
-          <p class="quote__text">
+      <section class="dating">
+        <h2 class="visually-hidden">Dating</h2>
+
+        <ul class="card-list">
+          <li class="card-list__item">
+            <span class="card-list__icon"></span>One World
+          </li>
+          <li class="card-list__item">
+            <span class="card-list__icon"></span>Two Hearts
+          </li>
+          <li class="card-list__item">
+            <span class="card-list__icon"></span>One Site
+          </li>
+        </ul>
+
+        <p class="dating__slogan"><span class="dating__logo"></span>Welcome</p>
+        <blockquote class="dating__quote">
+          <p class="dating__text">
             "Love is a promise, love is a souvenir, once given never forgotten,
             never let it disappear"
           </p>
-          <cite class="quote__author">- John Lennon</cite>
+          <cite class="dating__author">- John Lennon</cite>
         </blockquote>
-        <form class="welcome__form form-main" action="#">
-          <p class="title">It's free to join</p>
-          <button type="button">Sign up with facebook</button>
-          <p>or</p>
-          <label class="visually-hidden" for="email">Email</label>
-          <input id="email" type="email" name="email" placeholder="Email" />
-          <label class="visually-hidden" for="username">Username</label>
-          <input
-            id="username"
-            type="text"
-            name="username"
-            placeholder="Username"
-          />
-          <label class="visually-hidden" for="password">Password</label>
-          <input
-            id="password"
-            type="password"
-            name="password"
-            placeholder="Password"
-          />
-          <label class="visually-hidden" for="passwordConfirm"
-            >Confirm Password</label
-          >
-          <input
-            id="passwordConfirm"
-            type="password"
-            name="password"
-            placeholder="Confirm Password"
-          />
-          <button type="submit">Let's Go</button>
+        <form class="dating__form form-main" action="#">
+          <div class="form-main__wrapper">
+            <p class="form-main__slogan">It's free to join</p>
+            <button class="form-main__button form-main__button--signup" type="button">Sign up with facebook</button>
+            <p class="form-main__divider">or</p>
+            <label class="visually-hidden" for="email">Email</label>
+            <input class="form-main__input" id="email" type="email" name="email" placeholder="Email" />
+            <label class="visually-hidden" for="username">Username</label>
+            <input class="form-main__input"
+              id="username"
+              type="text"
+              name="username"
+              placeholder="Username"
+            />
+            <label class="visually-hidden" for="password">Password</label>
+            <input class="form-main__input"
+              id="password"
+              type="password"
+              name="password"
+              placeholder="Password"
+            />
+            <label class="visually-hidden" for="passwordConfirm"
+              >Confirm Password</label
+            >
+            <input class="form-main__input"
+              id="passwordConfirm"
+              type="password"
+              name="password"
+              placeholder="Confirm Password"
+            />
+            <button class="form-main__button form-main__button--submit" type="submit">Let's Go!</button>
+          </div>
         </form>
       </section>
 
