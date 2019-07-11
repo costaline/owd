@@ -6,7 +6,7 @@
 .nav-header__logo {
   display: block;
   margin: 0 auto;
-  margin-bottom: 88px;
+  margin-bottom: 68px;
   order: 2;
 }
 
@@ -20,7 +20,34 @@
 }
 
 .nav-header__toggle {
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
   order: 2;
+  display: flex;
+  align-items: center;
+  margin-right: 41px;
+}
+
+.nav-header__icon {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 26px;
+
+  &::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 30px;
+    height: 4px;
+    background-color: red;
+    top: 0;
+    left: 12px;
+    border-radius: 2px;
+
+    box-shadow: 0 10px 0 0 red, 0 20px 0 0 red;
+  }
 }
 
 .nav-header__list {
