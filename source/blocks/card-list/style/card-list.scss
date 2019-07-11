@@ -1,14 +1,12 @@
 .card-list {
+  @include outline;
   display: flex;
   justify-content: space-between;
   max-width: 785px;
-  margin: 0 auto;
-  margin-top: -225px;
-  margin-bottom: 145px;
 }
 
 .card-list__item {
-  width: 225px;
+  width: 235px;
   height: 330px;
 
   &--world {
@@ -29,7 +27,7 @@
 
 .card-list__icon {
   display: block;
-  width: 225px;
+  width: 235px;
   height: 225px;
 
   background-position: center;
