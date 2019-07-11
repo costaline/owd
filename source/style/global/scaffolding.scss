@@ -1,9 +1,17 @@
 @font-face {
-  font-family: "font-name";
+  font-family: "Lato";
   font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/font.woff") format("woff"),
-    url("../fonts/font.woff2") format("woff2");
+  font-weight: 400;
+  src: url("../fonts/lato-regular-webfont.woff") format("woff"),
+    url("../fonts/lato-regular-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/dosis-bold-webfont.woff") format("woff"),
+    url("../fonts/dosis-webfont.woff2") format("woff2");
 }
 
 * {
@@ -13,8 +21,8 @@
 body {
   margin: 0;
 
-  font-family: "font-name", Arial, sans-serif;
-  font-weight: 400;
+  font-family: "Dosis", Arial, sans-serif;
+  font-weight: 700;
 }
 
 h1,
