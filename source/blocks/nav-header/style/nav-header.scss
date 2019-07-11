@@ -1,0 +1,28 @@
+.nav-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-header__logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 88px;
+  order: 2;
+}
+
+.nav-header__wrapper {
+  display: flex;
+  margin-bottom: 112px;
+  padding-top: 25px;
+  padding-right: 66px;
+  padding-left: 66px;
+  justify-content: space-between;
+}
+
+.nav-header__toggle {
+  order: 2;
+}
+
+.nav-header__list {
+  display: flex;
+}
