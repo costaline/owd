@@ -1,5 +1,4 @@
 .join {
-  @include outline;
   min-height: 730px;
   padding-top: 134px;
 
@@ -13,11 +12,13 @@
   width: 462px;
   height: 462px;
   margin: 0 auto;
+
   text-align: center;
 }
 
 .join__slogan {
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 4px;
 
   font-size: 60px;
   text-transform: uppercase;
@@ -25,7 +26,7 @@
 }
 
 .join__description {
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 
   font-size: 46px;
   color: #67326e;
