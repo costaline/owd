@@ -1,0 +1,42 @@
+.form-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-footer__text {
+  margin-right: 15px;
+
+  color: #00cfae;
+  font-size: 16px;
+}
+
+.form-footer__input {
+  width: 376px;
+  height: 40px;
+  padding-left: 13px;
+
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #cdcdcd;
+  border-right: none;
+
+  &::placeholder {
+    color: #cacaca;
+    font-family: Lato;
+    font-size: 16px;
+  }
+}
+
+.form-footer__button {
+  width: 135px;
+  height: 40px;
+
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #fefefe;
+
+  border: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #00cfae;
+}
