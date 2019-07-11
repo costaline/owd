@@ -1,0 +1,64 @@
+.card-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 785px;
+  margin: 0 auto;
+  margin-top: -225px;
+  margin-bottom: 145px;
+}
+
+.card-list__item {
+  width: 225px;
+  height: 330px;
+
+  &--world {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    background-color: #fe4a5d;
+  }
+
+  &--hearts {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    background-color: #e22028;
+  }
+
+  &--site {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    background-color: #ff6c00;
+  }
+}
+
+.card-list__icon {
+  display: block;
+  width: 225px;
+  height: 225px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &--world {
+    background-image: url(../img/card-list-world.png);
+    background-size: 98px 96px;
+  }
+
+  &--hearts {
+    background-image: url(../img/card-list-hearts.png);
+    background-size: 112px 96px;
+  }
+
+  &--site {
+    background-image: url(../img/card-list-site.png);
+    background-size: 114px 78px;
+  }
+}
+
+.card-list__text {
+  height: 105px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  background-color: rgba($color: #000000, $alpha: 0.1);
+}
