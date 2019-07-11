@@ -1,0 +1,45 @@
+.join {
+  @include outline;
+  min-height: 730px;
+  padding-top: 134px;
+
+  background-color: #81398b;
+  background-image: url(../img/join-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.join__circle {
+  width: 462px;
+  height: 462px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.join__slogan {
+  margin-bottom: 5px;
+
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #67326e;
+}
+
+.join__description {
+  margin-bottom: 20px;
+
+  font-size: 46px;
+  color: #67326e;
+}
+
+.join__link {
+  padding: 12px 26px 11px 24px;
+
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 3px;
+  background-color: #e22028;
+  background-image: linear-gradient(to right, #e22028 0%, #f9b416 100%);
+}
