@@ -1,10 +1,10 @@
 .nav-footer {
-  min-height: 70px;
   background-color: #fafafa;
 }
 
 .nav-footer__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -27,5 +27,13 @@
 
   &:hover {
     background-color: rgba($color: #000000, $alpha: 0.05);
+  }
+}
+
+@media (max-width: $xl) {
+  .nav-footer__link {
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

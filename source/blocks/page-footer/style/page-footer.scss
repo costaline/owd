@@ -25,3 +25,12 @@
   text-align: center;
   color: #2f1946;
 }
+
+@media (max-width: $lg) {
+  .page-footer__flags {
+    display: none;
+  }
+  .page-footer__divider {
+    display: none;
+  }
+}
