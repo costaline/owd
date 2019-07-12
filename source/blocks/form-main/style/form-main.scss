@@ -70,11 +70,40 @@
 }
 
 .form-main__divider {
+  position: relative;
   padding-top: 10px;
-  padding-bottom: 11px;
+  padding-bottom: 12px;
+
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  color: #9b9b9b;
 
   text-align: center;
   text-transform: uppercase;
+
+  &::before {
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    content: "";
+    display: block;
+    width: 132px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #dcdcdc;
+  }
+
+  &::after {
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 0;
+    content: "";
+    display: block;
+    width: 132px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #dcdcdc;
+  }
 }
 
 .form-main__input {
