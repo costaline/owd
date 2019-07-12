@@ -2,37 +2,6 @@
   min-height: 108px;
 }
 
-.page-footer {
-  & .nav-footer {
-    min-height: 70px;
-    background-color: #fafafa;
-
-    & .nav-footer__list {
-      height: 70px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      & li {
-        padding-left: 29px;
-        padding-right: 29px;
-      }
-
-      & li a {
-        font-size: 16px;
-        line-height: 30px;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: #2f1946;
-
-        & span {
-          text-transform: none;
-        }
-      }
-    }
-  }
-}
-
 .page-footer__flags {
   padding-top: 20px;
   padding-bottom: 18px;
