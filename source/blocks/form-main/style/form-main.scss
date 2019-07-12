@@ -45,11 +45,27 @@
   &--signup {
     background-color: #2f53a3;
     letter-spacing: 0.8px;
+
+    &:hover {
+      background-color: green;
+    }
+
+    &:active {
+      background-color: yellowgreen;
+    }
   }
 
   &--submit {
     background-color: #81398b;
     letter-spacing: 0.69px;
+
+    &:hover {
+      background-color: green;
+    }
+
+    &:active {
+      background-color: yellowgreen;
+    }
   }
 }
 
@@ -75,5 +91,9 @@
     font-size: 16px;
     letter-spacing: 0.69px;
     color: #642f6b;
+  }
+
+  &:hover {
+    cursor: pointer;
   }
 }

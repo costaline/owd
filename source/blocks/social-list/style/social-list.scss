@@ -19,6 +19,14 @@
   background-position: center;
   background-repeat: no-repeat;
 
+  &:hover {
+    background-color: green;
+  }
+
+  &:active {
+    background-color: blue;
+  }
+
   &--share {
     background-image: url(../img/social-list-share.png);
   }

@@ -22,6 +22,17 @@
   border: 1px solid #cdcdcd;
   border-right: none;
 
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    color: #642f6b;
+    font-family: Dosis;
+    font-size: 16px;
+    letter-spacing: 0.69px;
+  }
+
   &::placeholder {
     color: #cacaca;
     font-family: Lato;
@@ -42,4 +53,16 @@
   border: none;
   border-radius: 0 4px 4px 0;
   background-color: #00cfae;
+
+  &:hover {
+    cursor: pointer;
+
+    background-color: #0cc2a6;
+  }
+
+  &:active {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0 3px 3px 0;
+    background-color: #0dd1b2;
+  }
 }

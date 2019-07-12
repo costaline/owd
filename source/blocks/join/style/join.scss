@@ -57,4 +57,14 @@
   border-radius: 3px;
   background-color: #e22028;
   background-image: linear-gradient(to right, #e22028 0%, #f9b416 100%);
+
+  &:hover {
+    cursor: pointer;
+    background-color: green;
+    background-image: none;
+  }
+
+  &:active {
+    background-color: blue;
+  }
 }
