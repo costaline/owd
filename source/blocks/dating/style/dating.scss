@@ -56,8 +56,30 @@
 }
 
 .dating__form {
-  width: 466px;
+  max-width: 466px;
   height: 552px;
   margin: 0 auto;
   margin-bottom: 159px;
+}
+
+@media (max-width: $md) {
+  .dating {
+    background-image: none;
+  }
+
+  .dating__card-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .dating__quote {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: $sm) {
+  .dating__form {
+    margin-bottom: 0px;
+  }
 }
