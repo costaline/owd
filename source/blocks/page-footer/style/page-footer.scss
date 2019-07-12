@@ -24,6 +24,10 @@
         text-transform: uppercase;
         text-decoration: none;
         color: #2f1946;
+
+        & span {
+          text-transform: none;
+        }
       }
     }
   }
