@@ -222,5 +222,18 @@
         reserved. We pledge never to share your Email Address
       </p>
     </footer>
+
+    <script>
+      const toggleMenuButton = document.querySelector(".nav-header__toggle"),
+        navHeaderList = document.querySelector(".nav-header__list");
+
+      toggleMenuButton.addEventListener("click", function() {
+        if (navHeaderList.classList.contains("nav-header__list--hide")) {
+          navHeaderList.classList.remove("nav-header__list--hide");
+        } else {
+          navHeaderList.classList.add("nav-header__list--hide");
+        }
+      });
+    </script>
   </body>
 </html>
