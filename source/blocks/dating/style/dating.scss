@@ -6,7 +6,7 @@
 }
 
 .dating__card-list {
-  margin: -235px auto 136px auto;
+  margin: -225px auto 136px auto;
 }
 
 .dating__slogan {
@@ -63,6 +63,10 @@
 }
 
 @media (max-width: $xl) {
+  .dating {
+    background-position: center 628px;
+  }
+
   .dating__card-list {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -75,7 +79,7 @@
   }
 
   .dating__card-list {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
   }
 
@@ -86,6 +90,12 @@
 }
 
 @media (max-width: $sm) {
+  .dating__form {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 466px) {
   .dating__form {
     margin-bottom: 0px;
   }

@@ -165,8 +165,8 @@
 
       <section class="join">
         <h2 class="visually-hidden">Join</h2>
-        <div class="join__circle circle">
-          <div class="join__wrapper circle__wrapper">
+        <div class="join__circle">
+          <div class="join__wrapper">
             <p class="join__slogan">Join now</p>
             <p class="join__description">It's free!</p>
             <a class="join__link">Get started</a>
@@ -224,16 +224,18 @@
     </footer>
 
     <script>
-      const toggleMenuButton = document.querySelector(".nav-header__toggle"),
-        navHeaderList = document.querySelector(".nav-header__list");
+      (() => {
+        const toggleMenuButton = document.querySelector(".nav-header__toggle"),
+          navHeaderList = document.querySelector(".nav-header__list");
 
-      toggleMenuButton.addEventListener("click", function() {
-        if (navHeaderList.classList.contains("nav-header__list--hide")) {
-          navHeaderList.classList.remove("nav-header__list--hide");
-        } else {
-          navHeaderList.classList.add("nav-header__list--hide");
-        }
-      });
+        toggleMenuButton.addEventListener("click", function() {
+          if (navHeaderList.classList.contains("nav-header__list--hide")) {
+            navHeaderList.classList.remove("nav-header__list--hide");
+          } else {
+            navHeaderList.classList.add("nav-header__list--hide");
+          }
+        });
+      })();
     </script>
   </body>
 </html>

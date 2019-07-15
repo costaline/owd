@@ -1,8 +1,10 @@
 .page-header {
-  height: 57.3vw;
+  height: 56.8vw;
 
   background-image: url(../img/page-heder-bg.jpg);
   background-size: 100%;
+
+  background-repeat: no-repeat;
 }
 
 .page-header__slogan {
@@ -136,7 +138,9 @@
   .page-header__social-list {
     display: none !important;
   }
+}
 
+@media (max-width: 420px) {
   .page-header__link {
     display: none;
   }
